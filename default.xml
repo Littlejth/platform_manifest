@@ -11,9 +11,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote name="gitlab"
-           fetch="https://gitlab.com/" /> 
-
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -417,7 +414,7 @@
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
-  <project path="packages/apps/Fdroid" name="fdroid/fdroidclient" remote="gitlab" revision="master" />
+  <project path="packages/apps/FDroid" name="f-droid/fdroidclient" remote="github" revision="master" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
